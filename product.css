@@ -1,0 +1,176 @@
+html body{
+  margin: 0;
+}
+
+img.logo1{
+  padding: 10px;
+  width: 290px;
+}
+ul.navbar{
+ display: flex;
+ float: right;
+ list-style: none;
+ position: relative;
+ bottom: 45px;
+}
+li>a{
+  padding: 20px;
+  text-decoration: none;
+}
+div.form{
+  justify-content: center;
+  display: grid;
+  padding: 5px;
+}
+form.email{
+  position: relative;
+  left: 1px;
+  bottom: 1px;
+}
+input {
+    width: 300px;
+    padding: 0 20px;
+    line-height: 2;
+}
+::placeholder{
+  font-size: 15px;
+  
+}
+button.button{
+  position: relative;
+  top: 5px;
+  
+  background-color: yellow;
+  border-color: yellow;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: larger;
+}
+div.service{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.writeup{
+  display: block;
+  font-size: large;
+  width: 800px;
+  
+}
+div.writeup2{
+  width: 800px;
+  display: block;
+  position: relative;
+  left: 10px;
+  font-size: large;
+}
+.writeup3{
+  font-size: large;
+  width: 800px;
+  position: relative;
+  right: 15px;
+}
+img.img3{
+  position: relative;
+  top: 40px;
+  left: 20px;
+}
+div.embed{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.main-box{
+  display: flex;
+  justify-content: space-evenly;
+}
+#title1{
+  border: solid;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+}
+button{
+  position: relative;
+  top: 5px;
+  
+  background-color: yellow;
+  border-color: yellow;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: larger;
+}
+footer{
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-around;
+  position: relative;
+  top: 40px;
+  font-size: larger;
+  font-family: 'Akshar', sans-serif;
+  color: whitesmoke;
+  background-color: rgb(0, 0, 0);
+ 
+}
+ul>li{
+  list-style: none;
+}
+li.list>a{
+  color: whitesmoke;
+}
+/**** FOR MOBILE VIEW *****/
+
+@media(max-width:550px){
+  img.logo1{
+    padding: 10px;
+    width: 290px;
+    position: relative;
+    left: 80px;
+  }
+  ul.navbar{
+    display: flex;
+    float: none;
+    list-style: none;
+    position: relative;
+    left: 50px;
+    top: 5px;
+   }
+   div.service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+  }
+  div.writeup{
+    display: block;
+    font-size: large;
+  }
+  div.writeup2{
+    width: 400px;
+    display: block;
+    position: relative;
+    left: 30px;
+    font-size: large;
+  }
+  div.writeup3{
+    font-size: large;
+  }
+  img.img1{
+    width: 100px;
+  }
+  img.img2{
+    width: 60px;
+    position: relative;
+    left: 20px;
+  }
+  img.img3{
+    position: relative;
+    top: 10px;
+    left: 20px;
+    width: 100px;
+  }
+  div.main-box{
+    display: grid;
+    justify-content: space-evenly;
+  }
+}
